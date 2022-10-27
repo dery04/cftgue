@@ -5,7 +5,7 @@
 
 - pkg install git -y
 
-- git clone https://github.com/dwd93/ClashForTermux.git
+- git clone https://github.com/dery04/cftgue.git
 
 - cd ClashForTermux && bash install.sh
 
@@ -30,7 +30,3 @@
 - Proxy : 127.0.0.1
 - Port : 7890
 
-# Contact Me
-- Bila masih bingung bisa di tanyakan 
-- Youtube https://youtube.com/channel/UCEivnkOPZQsr8UzPmnH8a2w
-- Telegram group https://t.me/+xCof7RFczCNhMzFl
