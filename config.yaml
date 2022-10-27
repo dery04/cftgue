@@ -7,34 +7,34 @@ external-controller: 127.0.0.1:9090
 proxies:
 
   - name: Trojan F
-    server: 
+    server: sg2-trojan.bonds.id 
     port: 443
     type: trojan
-    password: 
+    password: 416f2390-5597-11ed-8743-1239d0255272 
     network: ws
-    sni: 
+    sni: bing.com
     skip-cert-verify: true
     udp: true
     ws-opts:
-      path: /trojan-ws
+      path: /howdy
       headers:
-        Host: 
+        Host: bing.com 
     
   - name: Vmess
-    server: 
+    server: id-herza.v2-ray.com
     port: 443
     type: vmess
-    uuid: 
+    uuid: ff382d09-becd-41cb-8e4f-3e256b27de47
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: 
+    servername: bing.com 
     network: ws
     ws-opts:
-      path: 
+      path: /fastssh/cftgue/6359e052c532f/
       headers:
-        Host: 
+        Host: bing.com 
     udp: true
   
 proxy-groups:
