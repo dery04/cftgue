@@ -12,7 +12,7 @@
 - cd
 
 # Edit akun VPN
-- ketik micro .config/clash/vpn.yaml
+- ketik micro .config/clash/config.yaml
 - ctrl + s -> untuk save
 - ctrl + q -> untuk keluar
 
