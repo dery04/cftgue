@@ -37,20 +37,6 @@ proxies:
         Host: 
     udp: true
   
-  - name: Trojan V
-    type: vmess
-    server: 
-    port: 443
-    uuid: 
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    ws-path: /vmess-ws
-    ws-headers:
-      Host: 
 proxy-groups:
   - name: Manual Server
     type: select
@@ -58,13 +44,11 @@ proxy-groups:
       - "Best Ping ✓"
       - "Trojan F"
       - "Vmess"
-      - "Trojan V"
   - name: Best Ping ✓
     type: url-test
     proxies:
       - "Trojan F"
-      - "Vmess"
-      - "Trojan V"
+      - "Vmess
     url: https://www.google.com/
     interval: 300
   - name: "LOAD Balance 🌐"
@@ -72,7 +56,6 @@ proxy-groups:
     proxies:
       - "Trojan F"
       - "Vmess"
-      - "Trojan V"
     url: 'https://www.google.com/'
     interval: 300
 rules:
