@@ -7,7 +7,7 @@
 
 - git clone https://github.com/dery04/cftgue.git
 
-- cd ClashForTermux && bash install.sh
+- cd cftgue && bash install.sh
 
 - cd
 
