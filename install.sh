@@ -25,17 +25,11 @@ echo -e $b"➤ "$w" installing pacakge: "$g"micro"$w
 pkg install micro
 echo ""
 
-cd $HOME/ClashForTermux
+cd $HOME/cftgue
 sleep 2
 
 echo -e $b"➤ "$w" coppying yacd-dashbord: "$g"yacd"$w
 cp -r -f yacd-gh-pages.zip $HOME/.config/clash
-echo ""
-
-sleep 2
-
-echo -e $b"➤ "$w" coppying vpn.yaml: "$g"vpn"$w
-cp -r -f vpn.yaml $HOME/.config/clash
 echo ""
 
  sleep 2
@@ -55,6 +49,6 @@ sleep 2
 rm -r -f yacd-gh-pages.zip
 sleep 2
 cd
-rm -r -f ClashForTermux
+rm -r -f cftgue
 clash
 clear
